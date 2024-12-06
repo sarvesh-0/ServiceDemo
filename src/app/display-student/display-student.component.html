@@ -1,0 +1,13 @@
+<p>display-student works!</p>
+<table border="2px" width="50%">
+    <tr>
+        <th>Name</th>
+        <th>Roll No</th>
+        <th>Marks</th>
+    </tr>
+    <tr *ngFor="let s of sarr">
+        <td>{{s.studName}}</td>
+        <td>{{s.rollNo}}</td>
+        <td>{{s.marks}}</td>
+    </tr>
+</table>
